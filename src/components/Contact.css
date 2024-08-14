@@ -1,0 +1,42 @@
+/* src/components/Contact.css */
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+  }
+  
+  .contact-content {
+    max-width: 600px;
+  }
+  
+  .contact-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .contact-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .contact-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  
+  .contact-content a:hover {
+    background-color: white;
+    color: black;
+  }
+  

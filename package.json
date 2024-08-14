@@ -1,0 +1,48 @@
+{
+    "name": "personal-3d-website",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@craco/craco": "^7.1.0",
+      "@react-three/drei": "^9.109.5",
+      "@react-three/fiber": "^8.17.5",
+      "framer-motion": "^11.3.24",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "react-scripts": "^5.0.1",
+      "styled-components": "^6.1.12",
+      "three": "^0.167.1",
+      "three-mesh-bvh": "^0.7.6"
+    },
+    "scripts": {
+      "start": "craco start",
+      "build": "craco build",
+      "test": "craco test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "@babel/core": "^7.25.2",
+      "@babel/preset-env": "^7.25.3",
+      "babel-loader": "^9.1.3",
+      "webpack": "^5.93.0"
+    }
+  }
+  
